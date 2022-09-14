@@ -201,3 +201,7 @@ h1 {
   width: 20%;
   float: left;
 }
+.support-it-emp b {
+  text-decoration: underline;
+  font-weight: 900;
+}
