@@ -1,0 +1,25 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0; /* scrollbar genişliği */
+    background-color: transparent; /* scrollbar rengi */
+}
+
+::-webkit-scrollbar-track {
+    border: 0; /* dışta kalan barın kenarlıklar */
+    background-color: transparent; /* dışta kalan barın arkaplan rengi */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* scrolbarın arkaplan rengi */
+}

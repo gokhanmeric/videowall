@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./lib/am4/core.js"></script>
+    <script src="./lib/am4/map.js"></script>
+    <script src="./lib/am4/wordflow.js"></script>
+    <link href="./css/animation.css" rel="stylesheet" />
+    <link href="./css/screen-1.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <a
+      id="router"
+      asp-controller="Map"
+      asp-action="EmployeeMap"
+      style="display: none"
+    ></a>
+
+    <div class="wrapper">
+      <div class="box box1 animate two fadeInLeft">
+        <div class="left-1">
+          <h1>We are in <b>%71</b> of the world !</h1>
+          <div class="animate four fadeInLeft">
+            <span
+              ><b>146</b><br />
+              Countries</span
+            >
+            <p>
+              and <b> 39</b> different languages and <b>10</b> alphabet used in
+              system
+            </p>
+            <!-- icon box -->
+            <div class="icon-box">
+              <img src="icons/market.svg" />
+              <span><b>2,684</b></span>
+              Domestic Dealers
+            </div>
+            <!--. icon box -->
+            <!-- icon box -->
+            <div class="icon-box">
+              <img src="icons/fabric.svg" />
+              <span><b>28</b></span>
+              Production Plant
+              <!--. icon box -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box box2 animate three fadeInRight">
+        <img src="arcelik-logo_.svg" alt="arcelik-logo" />
+      </div>
+      <div class="box box3 animate four fadeInLeft"></div>
+      <div class="box box4"></div>
+    </div>
+
+    <div id="chartdiv" class="animate one fadeInDownBig"></div>
+
+    <script src="./js/map.js"></script>
+    <script src="./js/CountryMap.js"></script>
+  </body>
+</html>

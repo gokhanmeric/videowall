@@ -1,0 +1,203 @@
+body {
+  background: #15273e;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 6em;
+  padding: 0;
+  margin: 0;
+}
+
+#SC-1 {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+}
+#SC-2 {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 50%;
+}
+#SC-3 {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 0;
+}
+#SC-4 {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+}
+#SC-1,
+#SC-2 {
+  border: 1px solid white;
+}
+#SC-3,
+#SC-4 {
+  border: 1px solid white;
+}
+
+#chartdiv {
+  width: 60vw;
+  height: 50vh;
+  position: absolute;
+  right: 7.2rem;
+  top: 15.2em;
+  z-index: -10;
+}
+
+.logo {
+  position: absolute;
+  right: 3.2rem;
+  top: 3.2rem;
+  width: 20em;
+}
+
+.logo img {
+  width: 20em;
+}
+
+.icon-box {
+  display: table;
+  margin-top: 5em;
+  margin-right: 4em;
+  width: 35%;
+  float: left;
+}
+
+.icon-box img {
+  float: left;
+  margin-right: 2em;
+  width: 11em;
+}
+
+.icon-box span b {
+  font-size: 1em !important;
+  font-weight: 600;
+  display: table;
+}
+.icon-box i {
+  font-size: 3em;
+  display: table;
+  padding: 0;
+  margin: 0;
+}
+
+.SC-1 .left-1 {
+  margin-left: 75px;
+}
+.SC-1 .left-1 h1 {
+  font-size: 8.5rem;
+  padding: 1rem 1rem 1rem 1rem;
+  font-weight: 300;
+  background: white;
+  color: black;
+  border-radius: 2rem;
+  border-left: 1.5rem solid red;
+}
+.SC-1 .left-1 span {
+  font-size: 6rem;
+  font-weight: 300;
+  width: 70%;
+}
+.SC-1 .left-1 span b {
+  font-size: 8rem;
+}
+.SC-1 .left-1 p {
+  font-size: 4rem;
+  padding: 0 0 0 0;
+  font-weight: 300;
+  width: 70%;
+  margin: 0;
+}
+
+.we-are {
+  color: black;
+  padding: 1em 2em;
+  background: white;
+  border-radius: 1.5em;
+  border-left: 1.5em solid red;
+  width: 60vh;
+  margin: 2vh;
+}
+
+.we-are-detail {
+  margin: 2vh;
+}
+.we-are-detail span {
+  font-size: 4em;
+}
+.we-are-detail span b {
+  font-size: 2em;
+  font-weight: 900;
+}
+.we-are-detail p {
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+}
+
+.icon-box {
+  display: table;
+  margin-top: 5em;
+  margin-right: 4em;
+  float: left;
+  margin: 2vh;
+}
+
+.icon-box > img {
+  float: left;
+  margin-right: 2em;
+  width: 11em;
+}
+
+.icon-box > span > b {
+  font-size: 5em !important;
+  font-weight: 600;
+  display: table;
+}
+.icon-box > i {
+  font-size: 3em;
+  display: table;
+  padding: 0;
+  margin: 0;
+}
+
+.digital-emp {
+  position: absolute;
+  z-index: -1;
+  display: table;
+  width: 98%;
+  background-color: #0f1d2f;
+  border: 1px solid black;
+  bottom: 0;
+  right: 0;
+  padding: 5em 0 5em 5em;
+  border-top-left-radius: 4em !important;
+}
+
+.support-it {
+  font-size: 4em;
+  font-weight: 100;
+  display: table;
+  width: 20%;
+  float: left;
+}
+.support-it-emp {
+  font-size: 4em;
+  font-weight: 100;
+  display: table;
+  width: 20%;
+  float: left;
+}
